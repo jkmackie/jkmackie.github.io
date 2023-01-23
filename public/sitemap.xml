@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://jkmackie.github.io/about/</loc>
+    <lastmod>2023-01-22T23:25:30-06:00</lastmod>
+  </url><url>
+    <loc>http://jkmackie.github.io/</loc>
+    <lastmod>2022-10-04T14:11:14-06:00</lastmod>
+  </url><url>
+    <loc>http://jkmackie.github.io/posts/</loc>
+    <lastmod>2022-10-04T14:11:14-06:00</lastmod>
+  </url><url>
+    <loc>http://jkmackie.github.io/posts/2022-10-03-transfer-learning-vgg16/</loc>
+    <lastmod>2022-10-04T14:11:14-06:00</lastmod>
+  </url><url>
+    <loc>http://jkmackie.github.io/posts/2022-09-28-signals/</loc>
+    <lastmod>2022-09-28T14:06:32-06:00</lastmod>
+  </url><url>
+    <loc>http://jkmackie.github.io/posts/2021-11-24-youtube-dislikes/</loc>
+    <lastmod>2021-11-24T14:20:47-06:00</lastmod>
+  </url><url>
+    <loc>http://jkmackie.github.io/posts/2020-02-25-auto-price/</loc>
+    <lastmod>2020-02-05T13:29:43-06:00</lastmod>
+  </url><url>
+    <loc>http://jkmackie.github.io/posts/2019-09-12-confusion-matrix-viz/</loc>
+    <lastmod>2019-09-12T13:57:03-06:00</lastmod>
+  </url><url>
+    <loc>http://jkmackie.github.io/posts/2019-05-19-bot-attacks/</loc>
+    <lastmod>2019-05-09T13:50:22-06:00</lastmod>
+  </url><url>
+    <loc>http://jkmackie.github.io/categories/</loc>
+  </url><url>
+    <loc>http://jkmackie.github.io/tags/</loc>
+  </url>
+</urlset>
