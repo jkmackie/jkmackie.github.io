@@ -7,7 +7,7 @@ type: "page"
 
 ## **About Me:**
 
-Hi my name is [Justin](./jmack.jpeg).  I am a consultant with a passion for machine learning, analytics, research, and coding.
+Hi my name is [Justin](./jmack_image.jpeg).  :wave:  I am a consultant with a passion for machine learning, analytics, research, and coding.
 
 Here are my [**LinkedIn**](https://www.linkedin.com/in/justinmackie/) and [**GitHub**](https://github.com/jkmackie) profiles.
 
@@ -38,8 +38,3 @@ Here are my [**LinkedIn**](https://www.linkedin.com/in/justinmackie/) and [**Git
 ---
 
 #### [**DataQuest Path: Data Scientist in Python**](https://app.dataquest.io/verify_cert/MPHNSGR1FJL7T96EUDFX/)
-
-
-
----
-Contact me: image of email address

@@ -8,12 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Oct 2022 14:11:14 -0600</lastBuildDate><atom:link href="http://jkmackie.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Contact</title>
+      <link>http://jkmackie.github.io/contact/</link>
+      <pubDate>Tue, 24 Jan 2023 12:44:53 -0600</pubDate>
+      
+      <guid>http://jkmackie.github.io/contact/</guid>
+      <description>Email me or connect on LinkedIn. 😀</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>http://jkmackie.github.io/about/</link>
       <pubDate>Sun, 22 Jan 2023 23:25:30 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/about/</guid>
-      <description>About Me: Hi my name is Justin. I am a consultant with a passion for machine learning, analytics, research, and coding.
+      <description>About Me: Hi my name is Justin. 👋 I am a consultant with a passion for machine learning, analytics, research, and coding.
 Here are my LinkedIn and GitHub profiles.
 Education and Certifications: Texas A&amp;amp;M University - Finance MBA Trinity University - BS, Electrical Engineering; Minor in Mathematics Microsoft Training Module Transcript - Azure and DataBricks TinyML - Edge device sensor data analytics: TinyML 1: Fundamentals of TinyML TinyML 2: Application of TinyML TinyML 3: Deploying TinyML Natural Language Processing with Attention Models: Credential (Includes the famous Vaswani Transformer architecture with attention mechanism.</description>
     </item>
@@ -35,7 +44,7 @@ Transfer Learning with a One-Dimensional Signal This article builds on statistic
       <pubDate>Wed, 28 Sep 2022 14:06:32 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2022-09-28-signals/</guid>
-      <description>Signals are everywhere. They are complex and change with time. Your heartbeat is a signal. So is pump vibration and the sound of your voice. Our ancestors used fires as light signals.
+      <description>Signals 📶 are everywhere. They are complex and change with time. Your heartbeat is a signal. So is pump vibration and the sound of your voice. Our ancestors used fires as light signals.
 Below is my technical article.
 Fourier and Bispectral Analysis of Signals </description>
     </item>
@@ -46,10 +55,9 @@ Fourier and Bispectral Analysis of Signals </description>
       <pubDate>Wed, 24 Nov 2021 14:20:47 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2021-11-24-youtube-dislikes/</guid>
-      <description>On November 10, 2021, YouTube announced that dislike counts for videos will be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
+      <description>On November 10, 2021, YouTube announced that video dislike 👎 counts would be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
 The number of dislikes is only available in YouTube Studio to content creators.
-The write-up and code is here:
-The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public </description>
+See the sentiment analysis below. It uses public comments scraped from the web and the DistillBERT language model. There are several visualizations like this histogram of sentiment.</description>
     </item>
     
     <item>

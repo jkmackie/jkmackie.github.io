@@ -4,25 +4,24 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>YouTube Dislikes - Sentiment Analysis - Justin Mackie</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="YouTube Dislikes - Sentiment Analysis" />
-<meta property="og:description" content="On November 10, 2021, YouTube announced that dislike counts for videos will be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
+<meta property="og:description" content="On November 10, 2021, YouTube announced that video dislike 👎 counts would be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
 The number of dislikes is only available in YouTube Studio to content creators.
-The write-up and code is here:
-The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public " />
+See the sentiment analysis below. It uses public comments scraped from the web and the DistillBERT language model. There are several visualizations like this histogram of sentiment." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://jkmackie.github.io/posts/2021-11-24-youtube-dislikes/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-11-24T14:20:47-06:00" />
 <meta property="article:modified_time" content="2021-11-24T14:20:47-06:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="YouTube Dislikes - Sentiment Analysis"/>
-<meta name="twitter:description" content="On November 10, 2021, YouTube announced that dislike counts for videos will be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
+<meta name="twitter:description" content="On November 10, 2021, YouTube announced that video dislike 👎 counts would be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
 The number of dislikes is only available in YouTube Studio to content creators.
-The write-up and code is here:
-The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public "/>
+See the sentiment analysis below. It uses public comments scraped from the web and the DistillBERT language model. There are several visualizations like this histogram of sentiment."/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="http://jkmackie.github.io/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="http://jkmackie.github.io/css/main.css" /><link rel="stylesheet" type="text/css" href="http://jkmackie.github.io/css/dark.css"  />
 
+	<script src="http://jkmackie.github.io/js/feather.min.js"></script>
 	
 	<script src="http://jkmackie.github.io/js/main.js"></script>
 </head>
@@ -33,7 +32,7 @@ The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public "
 	<base href="http://jkmackie.github.io/">
 	<h1 class="site-title"><a href="http://jkmackie.github.io/">Justin Mackie</a></h1>
 	<div class="site-description"><h2>I extract value from data using machine learning techniques.</h2><nav class="nav social">
-			<ul class="flat"></ul>
+			<ul class="flat"><a href="https://github.com/jkmackie" title="GitHub"><i data-feather="github"></i></a></ul>
 		</nav>
 	</div>
 
@@ -45,11 +44,15 @@ The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public "
 			</li>
 			
 			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
 				<a href="/posts">Posts</a>
 			</li>
 			
 			<li>
-				<a href="/about">About</a>
+				<a href="/contact">Contact</a>
 			</li>
 			
 		</ul>
@@ -63,9 +66,9 @@ The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public "
 		</div>
 
 		<div class="markdown">
-			<p>On November 10, 2021, YouTube announced that dislike counts for videos will be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.</p>
-<p>The number of dislikes is only available in <a href="https://studio.youtube.com">YouTube Studio</a> to content creators.</p>
-<p>The write-up and code is here:</p>
+			<p>On November 10, 2021, YouTube announced that video dislike 👎 counts would be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.</p>
+<p>The number of dislikes is only available in YouTube Studio to content creators.</p>
+<p>See the sentiment analysis below.  It uses public comments scraped from the web and the DistillBERT language model.  There are several visualizations like this <a href="comment_sentiment.jpg">histogram</a> of sentiment.</p>
 <h5 id="the-youtube-dislike-button-remains-with-number-of-dislikes-hidden-from-publichttpsgithubcomjkmackieyoutube_dislike_count_removal_sentiment"><a href="https://github.com/jkmackie/youtube_dislike_count_removal_sentiment">The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public</a></h5>
 
 		</div>
@@ -84,6 +87,6 @@ The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public "
 
 
 
-
+<script>feather.replace()</script>
 </body>
 </html>

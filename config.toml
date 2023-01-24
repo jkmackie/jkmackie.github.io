@@ -4,6 +4,8 @@ languageCode = 'en-us'
 title = '''Justin Mackie'''
 theme = 'ezhil'
 
+enableEmoji = true
+
 [params]
     mode = "dark"
     subtitle = "I extract value from data using machine learning techniques."    
@@ -14,11 +16,21 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Posts"
-url = "/posts"
+name = "About"
+url = "/about"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "Posts"
+url = "/posts"
 weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 4
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/jkmackie"

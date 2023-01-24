@@ -24,7 +24,7 @@ Transfer Learning with a One-Dimensional Signal This article builds on statistic
       <pubDate>Wed, 28 Sep 2022 14:06:32 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2022-09-28-signals/</guid>
-      <description>Signals are everywhere. They are complex and change with time. Your heartbeat is a signal. So is pump vibration and the sound of your voice. Our ancestors used fires as light signals.
+      <description>Signals 📶 are everywhere. They are complex and change with time. Your heartbeat is a signal. So is pump vibration and the sound of your voice. Our ancestors used fires as light signals.
 Below is my technical article.
 Fourier and Bispectral Analysis of Signals </description>
     </item>
@@ -35,10 +35,9 @@ Fourier and Bispectral Analysis of Signals </description>
       <pubDate>Wed, 24 Nov 2021 14:20:47 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2021-11-24-youtube-dislikes/</guid>
-      <description>On November 10, 2021, YouTube announced that dislike counts for videos will be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
+      <description>On November 10, 2021, YouTube announced that video dislike 👎 counts would be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
 The number of dislikes is only available in YouTube Studio to content creators.
-The write-up and code is here:
-The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public </description>
+See the sentiment analysis below. It uses public comments scraped from the web and the DistillBERT language model. There are several visualizations like this histogram of sentiment.</description>
     </item>
     
     <item>
