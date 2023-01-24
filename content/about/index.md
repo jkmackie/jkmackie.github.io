@@ -1,11 +1,9 @@
 ---
-# title: "About"
+title: "About Me"
 date: 2023-01-22T23:25:30-06:00
 type: "page"
 ---
 ---
-
-## **About Me:**
 
 Hi my name is [Justin](./jmack_image.jpeg).  :wave:  I am a consultant with a passion for machine learning, analytics, research, and coding.
 

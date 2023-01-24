@@ -27,7 +27,7 @@ weight = 3
 
 [[menu.main]]
 name = "Contact"
-url = "/contact"
+url = "/contact"  #specifies folder name under content folder
 weight = 4
 
 [[params.social]]

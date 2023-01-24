@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title></title>
+      <title>About Me</title>
       <link>http://jkmackie.github.io/about/</link>
       <pubDate>Sun, 22 Jan 2023 23:25:30 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/about/</guid>
-      <description>About Me: Hi my name is Justin. 👋 I am a consultant with a passion for machine learning, analytics, research, and coding.
+      <description>Hi my name is Justin. 👋 I am a consultant with a passion for machine learning, analytics, research, and coding.
 Here are my LinkedIn and GitHub profiles.
 Education and Certifications: Texas A&amp;amp;M University - Finance MBA Trinity University - BS, Electrical Engineering; Minor in Mathematics Microsoft Training Module Transcript - Azure and DataBricks TinyML - Edge device sensor data analytics: TinyML 1: Fundamentals of TinyML TinyML 2: Application of TinyML TinyML 3: Deploying TinyML Natural Language Processing with Attention Models: Credential (Includes the famous Vaswani Transformer architecture with attention mechanism.</description>
     </item>
