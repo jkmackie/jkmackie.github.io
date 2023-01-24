@@ -13,9 +13,9 @@
       <pubDate>Tue, 04 Oct 2022 14:11:14 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2022-10-03-transfer-learning-vgg16/</guid>
-      <description>Transfer learning reuses a model built for an old task as the starting point for a new task. In the article below, I predict pump cavitation with with 16,000 Hz accelerometer data.
-The pre-trained VGG16 Convolutional Neural Network (CNN) model was used as the starting point for transfer learning. Citations are included at the end.
-Transfer Learning with a One-Dimensional Signal </description>
+      <description>Transfer learning reuses a model built for an old task as the starting point for a new task. The pre-trained VGG16 Convolutional Neural Network (CNN) model was the starting point for transfer learning.
+Pump cavitation is predicted from raw 16,000 Hz accelerometer data. See below.
+Transfer Learning with a One-Dimensional Signal This article builds on statistical knowledge from the signals article.</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@ Transfer Learning with a One-Dimensional Signal </description>
       
       <guid>http://jkmackie.github.io/posts/2022-09-28-signals/</guid>
       <description>Signals are everywhere. They are complex and change with time. Your heartbeat is a signal. So is pump vibration and the sound of your voice. Our ancestors used fires as light signals.
-Below is my technical article on signals. References are included at the end.
+Below is my technical article.
 Fourier and Bispectral Analysis of Signals </description>
     </item>
     
@@ -36,8 +36,9 @@ Fourier and Bispectral Analysis of Signals </description>
       
       <guid>http://jkmackie.github.io/posts/2021-11-24-youtube-dislikes/</guid>
       <description>On November 10, 2021, YouTube announced that dislike counts for videos will be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
-The number of dislikes is only available in Studio to content creators.
-confusion_matrix_visualization repo: The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public </description>
+The number of dislikes is only available in YouTube Studio to content creators.
+The write-up and code is here:
+The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public </description>
     </item>
     
     <item>
@@ -46,7 +47,7 @@ confusion_matrix_visualization repo: The YouTube Dislike Button Remains, with Nu
       <pubDate>Wed, 05 Feb 2020 13:29:43 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2020-02-25-auto-price/</guid>
-      <description> Part 1: Overview Build a dataset from the web. Prepare and model the dataset. Part 2: Data Collection and Cleaning Extract data with Scrapy Part 3: Feature Engineering Building Features for Data Modelling Part 4: Algorithms and Experiments Modelling our hard-won data </description>
+      <description> This is a four-part article series on auto price prediction from scratch. Part 1: Overview Build a dataset from the web. Prepare and model the dataset. Part 2: Data Collection and Cleaning Extract data with Scrapy Part 3: Feature Engineering Building Features for Data Modelling Part 4: Algorithms and Experiments Modelling our hard-won data </description>
     </item>
     
     <item>
@@ -55,8 +56,9 @@ confusion_matrix_visualization repo: The YouTube Dislike Button Remains, with Nu
       <pubDate>Thu, 12 Sep 2019 13:57:03 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2019-09-12-confusion-matrix-viz/</guid>
-      <description>Easy-to-read multiclass confusion matrix. It shows color-coded counts and percentages. The matrix values are color-coded with a heatmap.
-confusion_matrix_visualization repo: bot-attacks: Server Bot Attack Visualization </description>
+      <description>Easy-to-read multiclass confusion matrix. Both counts and percentages are shown. The matrix values are color-coded with a heatmap.
+Illustration and code here:
+Confusion Matrix Visualization </description>
     </item>
     
     <item>
@@ -66,7 +68,8 @@ confusion_matrix_visualization repo: bot-attacks: Server Bot Attack Visualizatio
       
       <guid>http://jkmackie.github.io/posts/2019-05-19-bot-attacks/</guid>
       <description>The internet is a cesspool of spy bots. Bots can attack an internet server hundreds of times a day. This Jupyter notebook, written in Python, visualizes bot attacks. It uses my anonymized server log and IP address geolocation.
-bott-attacks repo: bot-attacks: Server Bot Attack Visualization </description>
+The illustration and code are here:
+bot-attacks: Server Bot Attack Visualization </description>
     </item>
     
   </channel>
