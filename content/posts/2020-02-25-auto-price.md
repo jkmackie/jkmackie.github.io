@@ -6,6 +6,8 @@ draft: false
 ---
 ---
 
+### This is a four-part article series on auto price prediction from scratch.
+
 ### [Part 1: Overview](https://medium.com/analytics-vidhya/auto-price-prediction-from-scratch-part-1-overview-a4f331aaad00)
 #### Build a dataset from the web. Prepare and model the dataset.
 ---

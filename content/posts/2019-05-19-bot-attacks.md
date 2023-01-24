@@ -6,5 +6,5 @@ draft: false
 
 The internet is a cesspool of spy bots. Bots can attack an internet server hundreds of times a day. This Jupyter notebook, written in Python, visualizes bot attacks.  It uses my anonymized server log and IP address geolocation.
 
-### **bott-attacks repo:**
+The illustration and code are here:  
 ##### [bot-attacks: Server Bot Attack Visualization](https://github.com/jkmackie/bot-attacks)

@@ -7,9 +7,9 @@ type: "page"
 
 ## **About Me:**
 
-Hi my name is [Justin](./jmack.jpeg).  I am a consultant with a passion for machine learning, research, and coding.
+Hi my name is [Justin](./jmack.jpeg).  I am a consultant with a passion for machine learning, analytics, research, and coding.
 
-Here are my [LinkedIn](https://www.linkedin.com/in/justinmackie/) and [GitHub](https://github.com/jkmackie) profiles.
+Here are my [**LinkedIn**](https://www.linkedin.com/in/justinmackie/) and [**GitHub**](https://github.com/jkmackie) profiles.
 
 ---
 ## **Education and Certifications:**

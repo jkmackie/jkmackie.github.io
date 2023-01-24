@@ -6,7 +6,8 @@ draft: false
 
 On November 10, 2021, YouTube announced that dislike counts for videos will be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
 
-The number of dislikes is only available in Studio to content creators.
+The number of dislikes is only available in [YouTube Studio](https://studio.youtube.com) to content creators.
 
-### **confusion_matrix_visualization repo:**
+The write-up and code is here:
+
 ##### [The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public](https://github.com/jkmackie/youtube_dislike_count_removal_sentiment)
