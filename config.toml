@@ -8,7 +8,8 @@ enableEmoji = true
 
 [params]
     mode = "dark"
-    subtitle = "I extract value from data using machine learning techniques."    
+    subtitle = "I extract value from data."
+    favicon = "icons/favicon.ico"
 
 [[menu.main]]
 name = "Home"
