@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Futures Trade Selection - Justin Mackie</title><link rel="icon" type="image/png" href=icons/favicon.ico /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Futures Trade Selection" />
+<meta property="og:description" content="Rank Seasonal Oil Trades and Backtest Profit/Loss Copyright © 2019 Justin Mackie. All Rights Reserved. No one may distribute or create derivative works from my work without my written permission. You are prohibited from using the code for commercial and/or business purposes. Background: Suppose we want to predict oil prices several months ahead. Oil futures prices are daily time series data. Each business day, there is one settlement price for the commodity." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://jkmackie.github.io/posts/2019-10-03-oil-futures-trade-selection/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-10-03T13:29:43-06:00" />
+<meta property="article:modified_time" content="2019-10-03T13:29:43-06:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Futures Trade Selection"/>
+<meta name="twitter:description" content="Rank Seasonal Oil Trades and Backtest Profit/Loss Copyright © 2019 Justin Mackie. All Rights Reserved. No one may distribute or create derivative works from my work without my written permission. You are prohibited from using the code for commercial and/or business purposes. Background: Suppose we want to predict oil prices several months ahead. Oil futures prices are daily time series data. Each business day, there is one settlement price for the commodity."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="http://jkmackie.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://jkmackie.github.io/css/main.css" /><link rel="stylesheet" type="text/css" href="http://jkmackie.github.io/css/dark.css"  />
+
+	<script src="http://jkmackie.github.io/js/feather.min.js"></script>
+	
+	<script src="http://jkmackie.github.io/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="http://jkmackie.github.io/">
+	<h1 class="site-title"><a href="http://jkmackie.github.io/">Justin Mackie</a></h1>
+	<div class="site-description"><h2>I extract value from data.</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/jkmackie" title="GitHub"><i data-feather="github"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Posts</a>
+			</li>
+			
+			<li>
+				<a href="/contact">Contact</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Futures Trade Selection</h1>
+			<div class="meta">Posted at &mdash; Oct 3, 2019</div>
+		</div>
+
+		<div class="markdown">
+			<h3 id="rank-seasonal-oil-trades-and-backtest-profitloss">Rank Seasonal Oil Trades and Backtest Profit/Loss</h3>
+<hr>
+<h6 id="copyright--2019-justin-mackie-all-rights-reserved--no-one-may-distribute-or-create-derivative-works-from-my-work-without-my-written-permission--you-are-prohibited-from-using-the-code-for-commercial-andor-business-purposes"><em><strong>Copyright © 2019 Justin Mackie. All Rights Reserved.  No one may distribute or create derivative works from my work without my written permission.  You are prohibited from using the code for commercial and/or business purposes.</strong></em></h6>
+<hr>
+<h4 id="background">Background:</h4>
+<p>Suppose we want to predict oil prices several months ahead.  Oil futures prices are daily time series data.  Each business day, there is one <strong>settlement</strong> price for the commodity.  Prices sort of repeat over the years in cyclical patterns called seasonality.  My model captures price patterns and computes the chance of the pattern repeating using historical prices.  The patterns correspond to commodity trades that are ranked best to worst.</p>
+<p>The commodity illustrated in the model is Brent Crude, the key global price benchmark for Atlantic basin crude.  <a href="https://www.theice.com/products/219/Brent-Crude-Futures/specs">Brent</a>  is used to price the majority of Earth&rsquo;s internationally-traded crude supplies.</p>
+<h4 id="the-model--">The Model:  💸</h4>
+<p>My statistical seasonality model selects the best long and short trades using historical data.  Then, cumulative trade Profit/Loss performance is tallied for the designated time period.  Model logic is built on Python and Pandas.  The Model reads and writes data from the SQLite3 database named <strong>data.sqlite</strong>.  Data visualizations are plotted with Seaborn and Matplotlib.  The model is presented in a Jupyter Notebook &ndash; the <strong>.ipynb</strong> file.</p>
+<hr>
+<h4 id="top-5-long-trades-by-contract-month----jan-and-feb">Top 5 Long Trades by Contract Month &ndash; Jan and Feb:</h4>
+<p><img src="top5_long.PNG" alt="Top 5 Long Trades"></p>
+<h4 id="brent-cumulative-profit-loss-for-dozen-selected-trades">Brent Cumulative Profit-Loss for dozen selected trades:</h4>
+<p><img src="cum_pl_2018.PNG" alt="Cumulative PL"></p>
+<hr>
+<h4 id="model-details">Model Details:</h4>
+<p>When picking a basket of financial trades (or a standalone trade), the odds a trade will move up or down is not the full picture.  Volatility and price path are relevant.  Volatility is important because a less volatile trade is better than a trade with wild price swings, all other things being equal.  Price path matters because as we go through time, a <strong>cumulative total trade return</strong> of $1 that never dips negative is better than a (larger) cumulative trade return of $1.10 that dips to ($2.00) and later ($1.00).  Only a highly risk-tolerant investor would prefer the latter pattern.</p>
+<p>The model visualizes trade movement, both in dollar terms and normalized z-score.  The z-score is the move in standard deviations above/below the mean.  See below.</p>
+<hr>
+<h4 id="1-3v4-dollar-move----2011-2017">1-3v4 Dollar Move &ndash; 2011-2017:</h4>
+<p><img src="1-3v4_dollar_move.PNG" alt="Dollar Move"></p>
+<h4 id="1-3v4-spread-z-normalized-move----2011-2017">1-3v4 Spread z-Normalized Move &ndash; 2011-2017:</h4>
+<p><img src="1-3v4_z_move.PNG" alt="z-move"></p>
+<hr>
+<p>We can run the model on a different commodity like West Texas Intermediate (WTI) or RBOB Gasoline Futures.  We just need the data in a SQLite database!</p>
+<p>The prices modeled are actually the price spread between two contracts for the designated calendar month.  Ex. 1-3v4 means the month three settlement price minus the month 4 settlement price for calendar month 1.  Terminology is bulleted below. Calculating the price spreads in a <em>time spread matrix</em> are outside our scope.</p>
+<p>Picking valid spreads is complicated by the fact that contracts expire.  We model spreads that are active for the whole calendar month (until any month-end expiration).  Here is a concrete example.  If the front contract is traded the whole month, but the back contract is traded only the last seven days, this is not a valid spread.</p>
+<p>Why not model the spread between &ldquo;Spread1&rdquo; and &ldquo;Spread2&rdquo;?  I&rsquo;ve modeled that too!  Commodity traders call them fly spreads.  In contrast, if there is one spread modeled, it is a spread model.</p>
+<h4 id="please-note--the-model-is-private--it-was-built-for-a-commodity-analytics-startup-called-caghttpscommodityanalyticsgroupcom--model-available-upon-request"><em>Please note:  The model is private.  It was built for a commodity analytics startup called <a href="https://commodityanalyticsgroup.com/">CAG</a>.  Model available upon request.</em></h4>
+<hr>
+<h4 id="trading-terminology">Trading Terminology:</h4>
+<ul>
+<li><strong>Fit Years</strong> - Years used in computing trade ranking stats.</li>
+<li><strong>Initial Price</strong> - Price on Day before first day of month.</li>
+<li><strong>Last Price</strong> - Last Price for day.</li>
+<li><strong>Roll Day</strong> - Last day position is held.  For example, this may be a few days in advance of the expiration date.</li>
+<li><strong>Capital</strong> - Position profit/loss.</li>
+<li><strong>Contract Month</strong> - The month in which seller must deliver.  Ex. Delivery of one May-2019 Brent contract is physical delivery of 1,000 barrels of Brent in May.  The Ice Brent contract has the option to be cash settled.</li>
+<li><strong>Long Spread</strong> - long front contract, short back contract.</li>
+<li><strong>Short Spread</strong> - Short front contract, long back contract.</li>
+<li><strong>Front month</strong> - first month in a spread.  Ex. 1 in a 1v3 spread.</li>
+<li><strong>Back month</strong> - last  month in a spread.  Ex. 3 in a 1v3 spread.</li>
+<li><strong>calmonth_spread_label</strong> - the contract months for the front and back contracts.  Ex 1-3v6 is calendar month 1 (Jan).  Front contract is month 3 (Mar) and back contract is month 6 (Jun).  The spread is the front price minus the back price.  That is the March minus June settlement price in this case.</li>
+<li><strong>z_diff</strong> - z-score change between the month-start and month-end z-scores</li>
+<li><strong>Settles TABLE: settle</strong> - Daily settlement price of product</li>
+<li><strong>Spreads TABLE: spread</strong> - Settlement price difference for two different valid Contact Months on the same date.</li>
+<li><strong>Expiry TABLE: last_trade_date</strong> - the last day the Contract Month (prompt_month) is available.  Ex. BRENT future for May-2019  expired 03-29-2019.</li>
+</ul>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
+</body>
+</html>
