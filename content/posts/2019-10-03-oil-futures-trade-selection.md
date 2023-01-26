@@ -47,7 +47,7 @@ Picking valid spreads is complicated by the fact that contracts expire.  We mode
 
 Why not model the spread between "Spread1" and "Spread2"?  I've modeled that too!  Commodity traders call them fly spreads.  In contrast, if there is one spread modeled, it is a spread model.
 
-#### *Please note:  The model is private.  It was built for a commodity analysis startup called [CAG](https://commodityanalyticsgroup.com/).  Model available upon request.*
+#### *Please note:  The model is private.  It was built for a commodity analytics startup called [CAG](https://commodityanalyticsgroup.com/).  Model available upon request.*
 
 ***
 #### Trading Terminology:
