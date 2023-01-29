@@ -5,7 +5,9 @@ type: "page"
 ---
 ---
 
-Hi my name is [Justin](./jmack_image.jpeg).  :wave:  I am a consultant with a passion for machine learning, analytics, research, and coding.
+![Justin](./jmack_image.jpeg)
+
+Hi my name is Justin.  :wave:  I am a consultant with a passion for machine learning, analytics, research, and coding.
 
 Here are my [**LinkedIn**](https://www.linkedin.com/in/justinmackie/) and [**GitHub**](https://github.com/jkmackie) profiles.
 

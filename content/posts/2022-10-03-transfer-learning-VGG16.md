@@ -4,7 +4,9 @@ date: 2022-10-04T14:11:14-06:00
 draft: false
 ---
 
-This project predicts pump cavitation using accelerometer data.  This data can be automatically categorized by a model.
+This project predicts pump cavitation using 16,000 Hz accelerometer data (example below).  This data can be automatically categorized by a model.
+
+![accelerometer_data](signal_16000Hz.jpg)
 
 Transfer learning reuses a model built for an old task as the starting point for a new task.  The pre-trained VGG16 Convolutional Neural Network (CNN) model was the starting point.  It categorizes images.
 

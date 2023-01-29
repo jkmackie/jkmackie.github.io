@@ -33,7 +33,7 @@ Education and Certifications: Texas A&amp;amp;M University - Finance MBA Trinity
       <pubDate>Tue, 04 Oct 2022 14:11:14 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2022-10-03-transfer-learning-vgg16/</guid>
-      <description>This project predicts pump cavitation using accelerometer data. This data can be automatically categorized by a model.
+      <description>This project predicts pump cavitation using 16,000 Hz accelerometer data (example below). This data can be automatically categorized by a model.
 Transfer learning reuses a model built for an old task as the starting point for a new task. The pre-trained VGG16 Convolutional Neural Network (CNN) model was the starting point. It categorizes images.
 The original VGG16 was fine-tuned to categorize new images. The new images were derived from an accelerometer signal from the pump.</description>
     </item>
@@ -44,8 +44,9 @@ The original VGG16 was fine-tuned to categorize new images. The new images were 
       <pubDate>Wed, 28 Sep 2022 14:06:32 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2022-09-28-signals/</guid>
-      <description>This is a math overview of the fourier and bispectrum signal processing techniques. Computational challenges and use cases are discussed.
-Please see below.
+      <description>
+This is a math overview of the fourier and bispectrum signal processing techniques. Computational challenges and use cases are discussed.
+Please see below:
 Fourier and Bispectral Analysis of Signals </description>
     </item>
     
@@ -57,7 +58,8 @@ Fourier and Bispectral Analysis of Signals </description>
       <guid>http://jkmackie.github.io/posts/2021-11-24-youtube-dislikes/</guid>
       <description>On November 10, 2021, YouTube announced that video dislike 👎 counts would be hidden from the public. The stated benefit is protecting creators (especially smaller ones) from dislike attacks and harassment.
 The number of dislikes is only available in YouTube Studio to content creators.
-See the sentiment analysis below. It uses public comments scraped from the web and the DistillBERT language model. There are several visualizations like this histogram of sentiment.</description>
+See the sentiment analysis below. It uses public comments scraped from the web and the DistillBERT language model.
+The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public </description>
     </item>
     
     <item>
@@ -84,7 +86,8 @@ See the sentiment analysis below. It uses public comments scraped from the web a
       <pubDate>Thu, 12 Sep 2019 13:57:03 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2019-09-12-confusion-matrix-viz/</guid>
-      <description>Easy-to-read multiclass confusion matrix. Both counts and percentages are shown. The matrix values are color-coded with a heatmap.
+      <description>
+Easy-to-read multiclass confusion matrix. Both &amp;ldquo;normalized&amp;rdquo; percentages and counts are shown. The matrix values are color-coded with a heatmap.
 Illustration and code here:
 Confusion Matrix Visualization </description>
     </item>
