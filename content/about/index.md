@@ -3,7 +3,6 @@ title: "About Me"
 date: 2023-01-22T23:25:30-06:00
 type: "page"
 ---
----
 
 ![Justin](./jmack_image.jpeg)
 
