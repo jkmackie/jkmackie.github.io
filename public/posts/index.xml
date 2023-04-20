@@ -52,12 +52,13 @@ The YouTube Dislike Button Remains, with Number of Dislikes Hidden from Public <
     </item>
     
     <item>
-      <title>Futures Trade Selection</title>
+      <title>Oil Futures Trade Selection</title>
       <link>http://jkmackie.github.io/posts/2019-10-03-oil-futures-trade-selection/</link>
       <pubDate>Thu, 03 Oct 2019 13:29:43 -0600</pubDate>
       
       <guid>http://jkmackie.github.io/posts/2019-10-03-oil-futures-trade-selection/</guid>
-      <description>Rank Seasonal Oil Trades and Backtest Profit/Loss Copyright © 2019 Justin Mackie. All Rights Reserved. No one may distribute or create derivative works from my work without my written permission. You are prohibited from using the code for commercial and/or business purposes. Background: Suppose we want to predict oil prices several months ahead. Oil futures prices are daily time series data. Each business day, there is one settlement price for the commodity.</description>
+      <description>Rank Seasonal Oil Trades and Backtest Profit/Loss Copyright © 2019 Justin Mackie. All Rights Reserved. No one may distribute or create derivative works from my work without my written permission. You are prohibited from using the code for commercial and/or business purposes. Background: This project was built for Commodity Analytics Group.
+Suppose we want to predict oil prices several months ahead. Oil futures prices are daily time series data. Each business day, there is one settlement price for the commodity.</description>
     </item>
     
     <item>

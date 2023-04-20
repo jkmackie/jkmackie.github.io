@@ -1,5 +1,5 @@
 ---
-title: "Futures Trade Selection"
+title: "Oil Futures Trade Selection"
 date: 2019-10-03T13:29:43-06:00
 draft: false
 ---
@@ -11,6 +11,8 @@ draft: false
 ***
 
 #### Background:
+This project was built for [Commodity Analytics Group](https://commodityanalyticsgroup.com/).
+
 Suppose we want to predict oil prices several months ahead.  Oil futures prices are daily time series data.  Each business day, there is one **settlement** price for the commodity.  Prices sort of repeat over the years in cyclical patterns called seasonality.  My model captures price patterns and computes the chance of the pattern repeating using historical prices.  The patterns correspond to commodity trades that are ranked best to worst.
 
 The commodity illustrated in the model is Brent Crude, the key global price benchmark for Atlantic basin crude.  [Brent]( https://www.theice.com/products/219/Brent-Crude-Futures/specs)  is used to price the majority of Earth's internationally-traded crude supplies.

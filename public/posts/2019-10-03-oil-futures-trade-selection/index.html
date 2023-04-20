@@ -2,16 +2,18 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Futures Trade Selection - Justin Mackie</title><link rel="icon" type="image/png" href=icons/favicon.ico /><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="Futures Trade Selection" />
-<meta property="og:description" content="Rank Seasonal Oil Trades and Backtest Profit/Loss Copyright © 2019 Justin Mackie. All Rights Reserved. No one may distribute or create derivative works from my work without my written permission. You are prohibited from using the code for commercial and/or business purposes. Background: Suppose we want to predict oil prices several months ahead. Oil futures prices are daily time series data. Each business day, there is one settlement price for the commodity." />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Oil Futures Trade Selection - Justin Mackie</title><link rel="icon" type="image/png" href=icons/favicon.ico /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Oil Futures Trade Selection" />
+<meta property="og:description" content="Rank Seasonal Oil Trades and Backtest Profit/Loss Copyright © 2019 Justin Mackie. All Rights Reserved. No one may distribute or create derivative works from my work without my written permission. You are prohibited from using the code for commercial and/or business purposes. Background: This project was built for Commodity Analytics Group.
+Suppose we want to predict oil prices several months ahead. Oil futures prices are daily time series data. Each business day, there is one settlement price for the commodity." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://jkmackie.github.io/posts/2019-10-03-oil-futures-trade-selection/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2019-10-03T13:29:43-06:00" />
 <meta property="article:modified_time" content="2019-10-03T13:29:43-06:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Futures Trade Selection"/>
-<meta name="twitter:description" content="Rank Seasonal Oil Trades and Backtest Profit/Loss Copyright © 2019 Justin Mackie. All Rights Reserved. No one may distribute or create derivative works from my work without my written permission. You are prohibited from using the code for commercial and/or business purposes. Background: Suppose we want to predict oil prices several months ahead. Oil futures prices are daily time series data. Each business day, there is one settlement price for the commodity."/>
+<meta name="twitter:title" content="Oil Futures Trade Selection"/>
+<meta name="twitter:description" content="Rank Seasonal Oil Trades and Backtest Profit/Loss Copyright © 2019 Justin Mackie. All Rights Reserved. No one may distribute or create derivative works from my work without my written permission. You are prohibited from using the code for commercial and/or business purposes. Background: This project was built for Commodity Analytics Group.
+Suppose we want to predict oil prices several months ahead. Oil futures prices are daily time series data. Each business day, there is one settlement price for the commodity."/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="http://jkmackie.github.io/css/normalize.css" />
@@ -57,7 +59,7 @@
 
 
 		<div class="post-header">
-			<h1 class="title">Futures Trade Selection</h1>
+			<h1 class="title">Oil Futures Trade Selection</h1>
 			<div class="meta">Posted at &mdash; Oct 3, 2019</div>
 		</div>
 
@@ -67,6 +69,7 @@
 <h6 id="copyright--2019-justin-mackie-all-rights-reserved--no-one-may-distribute-or-create-derivative-works-from-my-work-without-my-written-permission--you-are-prohibited-from-using-the-code-for-commercial-andor-business-purposes"><em><strong>Copyright © 2019 Justin Mackie. All Rights Reserved.  No one may distribute or create derivative works from my work without my written permission.  You are prohibited from using the code for commercial and/or business purposes.</strong></em></h6>
 <hr>
 <h4 id="background">Background:</h4>
+<p>This project was built for <a href="https://commodityanalyticsgroup.com/">Commodity Analytics Group</a>.</p>
 <p>Suppose we want to predict oil prices several months ahead.  Oil futures prices are daily time series data.  Each business day, there is one <strong>settlement</strong> price for the commodity.  Prices sort of repeat over the years in cyclical patterns called seasonality.  My model captures price patterns and computes the chance of the pattern repeating using historical prices.  The patterns correspond to commodity trades that are ranked best to worst.</p>
 <p>The commodity illustrated in the model is Brent Crude, the key global price benchmark for Atlantic basin crude.  <a href="https://www.theice.com/products/219/Brent-Crude-Futures/specs">Brent</a>  is used to price the majority of Earth&rsquo;s internationally-traded crude supplies.</p>
 <h4 id="the-model--">The Model:  💸</h4>
